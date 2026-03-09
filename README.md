@@ -1,23 +1,23 @@
 # 🧮 OOP Calculator – Encapsulation & Abstraction Demo
 
-This project is a simple **Calculator** implemented in **C++** as part of the 10th course on the [AbouHadhood Platform](https://programmingadvices.com/).  
-The goal is to **demonstrate the principles of Encapsulation and Abstraction** using a single class.
+This project is a simple **Calculator** implemented in **C++** as part of the **Programming Advices** roadmap on the [AbouHadhood Platform](https://programmingadvices.com/).  
+It demonstrates the core **OOP principles of Encapsulation and Abstraction** using a single, reusable class.
 
 ---
 
 ## 🚀 Features
-- Basic arithmetic operations:  
+- **Basic Arithmetic Operations:**  
   ➕ Add  
   ➖ Subtract  
   ✖️ Multiply  
-  ➗ Divide (handles division by zero by replacing 0 with 1 – for demo purposes)
+  ➗ Divide (handles division by zero by replacing 0 with 1 – for demonstration purposes)
 
-- Operation history tracking:
-  - Last operation performed
-  - Last number used
-  - Previous result before the last operation
+- **Operation History Tracking:**  
+  - Tracks last operation performed  
+  - Tracks last number used  
+  - Tracks previous result before the last operation
 
-- Utility functions:
+- **Utility Functions:**  
   - `Clear()` → resets the calculator  
   - `CancelLastOperation()` → undo the last operation  
   - `PrintResult()` → displays the result after each operation  
@@ -25,9 +25,23 @@ The goal is to **demonstrate the principles of Encapsulation and Abstraction** u
 
 ---
 
-
 ## 🎯 Concepts Practiced
-- **Encapsulation** → data members (`_Result`, `_LastNumber`, etc.) are hidden in the private section.  
-- **Abstraction** → unnecessary details (like division-by-zero handling via `_IsZero`) are hidden from the user of the class.  
+- **Encapsulation:** data members (`_Result`, `_LastNumber`, `_PreviousResult`, `_LastOperation`) are private to the class.  
+- **Abstraction:** unnecessary internal details (like `_IsZero` check) are hidden from the user, exposing only high-level operations.
+
+---
+
+## 🛠 Technologies Used
+- **Language:** C++  
+- **Paradigm:** Object-Oriented Programming (OOP)  
+- **Tools:** Microsoft Visual Studio 2022  
+
+---
+
+## 💡 Learning Outcomes
+- Implemented a fully functional class-based calculator.  
+- Applied OOP principles practically to ensure clean, maintainable, and reusable code.  
+- Learned to handle edge cases like division by zero elegantly.  
+- Practiced designing utility functions that simplify user interaction with the class.  
 
 ---
